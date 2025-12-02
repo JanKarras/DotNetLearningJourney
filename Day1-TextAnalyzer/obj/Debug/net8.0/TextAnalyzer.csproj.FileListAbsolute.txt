@@ -1,0 +1,14 @@
+/home/jan-karras/Projects/NewYorker/TextAnalyzer/bin/Debug/net8.0/TextAnalyzer
+/home/jan-karras/Projects/NewYorker/TextAnalyzer/bin/Debug/net8.0/TextAnalyzer.deps.json
+/home/jan-karras/Projects/NewYorker/TextAnalyzer/bin/Debug/net8.0/TextAnalyzer.runtimeconfig.json
+/home/jan-karras/Projects/NewYorker/TextAnalyzer/bin/Debug/net8.0/TextAnalyzer.dll
+/home/jan-karras/Projects/NewYorker/TextAnalyzer/bin/Debug/net8.0/TextAnalyzer.pdb
+/home/jan-karras/Projects/NewYorker/TextAnalyzer/obj/Debug/net8.0/TextAnalyzer.GeneratedMSBuildEditorConfig.editorconfig
+/home/jan-karras/Projects/NewYorker/TextAnalyzer/obj/Debug/net8.0/TextAnalyzer.AssemblyInfoInputs.cache
+/home/jan-karras/Projects/NewYorker/TextAnalyzer/obj/Debug/net8.0/TextAnalyzer.AssemblyInfo.cs
+/home/jan-karras/Projects/NewYorker/TextAnalyzer/obj/Debug/net8.0/TextAnalyzer.csproj.CoreCompileInputs.cache
+/home/jan-karras/Projects/NewYorker/TextAnalyzer/obj/Debug/net8.0/TextAnalyzer.dll
+/home/jan-karras/Projects/NewYorker/TextAnalyzer/obj/Debug/net8.0/refint/TextAnalyzer.dll
+/home/jan-karras/Projects/NewYorker/TextAnalyzer/obj/Debug/net8.0/TextAnalyzer.pdb
+/home/jan-karras/Projects/NewYorker/TextAnalyzer/obj/Debug/net8.0/TextAnalyzer.genruntimeconfig.cache
+/home/jan-karras/Projects/NewYorker/TextAnalyzer/obj/Debug/net8.0/ref/TextAnalyzer.dll
