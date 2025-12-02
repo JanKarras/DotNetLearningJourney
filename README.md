@@ -68,11 +68,11 @@ A C# console application that reads a `.txt` file and prints the **Top 5 most fr
 
 ```bash
 cd Day1-TextAnalyzer/TestFiles
-./test.sh
+./good.sh
 ### ✔ Bad input tests (expected errors)
 
 ```bash
-./test_bad.sh
+./bad.sh
 ```
 
 ### The bad tests cover:
