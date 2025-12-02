@@ -10,11 +10,11 @@
 
 ## 📚 Overview
 
-This repository documents my **7-day deep-dive into C# and .NET**, designed to build real-world engineering skills through practical, testable mini-projects.
+This repository documents my **7-day deep-dive into C# and .NET**, designed to build real-world engineering skills through practical and testable mini-projects.
 
 Each day focuses on a specific topic, starting with fundamentals and ending with data processing, SQL usage, services, and optional UI development.
 
-This challenge was created to strengthen my engineering skillset and prepare for roles that require C#, .NET, SQL, data workflows, and architectural understanding.
+The goal of this learning journey is to strengthen my engineering skillset and prepare for roles requiring C#, .NET, SQL, data workflows, and application architecture.
 
 ---
 
@@ -34,150 +34,103 @@ This challenge was created to strengthen my engineering skillset and prepare for
 
 # 🔥 Day 1 — TextAnalyzer
 
-A complete C# console application that reads a `.txt` file and prints the **Top 5 most frequent words**.
+A C# console application that reads a `.txt` file and prints the **Top 5 most frequent words**.
 
-This project covers:
+### What I learned on Day 1:
 
-- C#/.NET fundamentals  
-- Reading files with File I/O  
-- Argument validation  
-- Exception handling  
-- LINQ transformations  
-- Creating models, services, and utility classes  
-- Building clean folder structures  
-- Writing automated Bash tests  
-
----
-
-## 📂 Project Structure
-
-Day1-TextAnalyzer/
-├── Program.cs
-├── Models/
-│ └── WordCount.cs
-├── Utils/
-│ └── ArgsValidator.cs
-├── Services/
-│ └── Analyzer.cs
-└── TestFiles/
-├── good/
-├── bad/
-├── test.sh
-└── test_bad.sh
-
-yaml
-Copy code
+- Basics of C# and .NET  
+- Entry point structure (`Main`)  
+- Namespaces and clean project organization  
+- File I/O with `File.ReadAllText`  
+- Argument validation and exception handling  
+- Custom utility classes and services  
+- LINQ operations (`GroupBy`, `Select`, `OrderByDescending`, `Take`)  
+- Writing Bash scripts to automate tests  
 
 ---
 
 ## ⚙️ Features
 
-✔ Full argument validation  
-✔ Permission checks  
-✔ Directory checks  
-✔ .txt-only validation  
-✔ Empty file detection  
-✔ Separator-based word splitting  
-✔ LINQ aggregation and sorting  
-✔ Outputs the 5 most frequent words  
-✔ Automated testing scripts (good + bad input)  
+✔ Validates CLI arguments  
+✔ Checks permissions and directory misuse  
+✔ Only accepts `.txt` files  
+✔ Detects empty or invalid files  
+✔ Splits text into words using custom separators  
+✔ Uses LINQ to calculate word frequencies  
+✔ Returns the top 5 most frequent words  
+✔ Includes Good/Bad automated test scripts  
 
 ---
 
 ## 🧪 Running Tests
 
-### Good input tests:
+### ✔ Good input tests
 
 ```bash
 cd Day1-TextAnalyzer/TestFiles
 ./test.sh
-Bad input tests (expected failures):
-bash
-Copy code
+### ✔ Bad input tests (expected errors)
+
+```bash
 ./test_bad.sh
-Supported failure cases:
+```
 
-Missing argument
+### The bad tests cover:
 
-File does not exist
+- Missing argument  
+- File does not exist  
+- Wrong file extension  
+- No read permission  
+- Directory path instead of a file  
+- Empty file  
+- Files that contain no valid words  
 
-Wrong file extension
+---
 
-No read permission
+## 📊 Example Output
 
-Directory instead of file
-
-Empty file
-
-Only separators or invalid content
-
-📊 Example Output
-yaml
-Copy code
+```
 📊 Top 5 most frequent words:
 - the: 6x
 - dog: 3x
 - fox: 3x
 - lazy: 3x
 - quick: 3x
-🚀 Technologies Used
-C#
-
-.NET 8
-
-LINQ
-
-Bash testing
-
-Linux (Ubuntu VM)
-
-🧠 Purpose of the Project
-This repository represents a structured self-learning challenge to deepen my knowledge in:
-
-C# / .NET
-
-SQL + data handling
-
-ETL processes
-
-Application architecture
-
-Unit testing & clean code
-
-Real-world engineering workflows
-
-Each day will introduce a new concept and a small hands-on project.
-
-📬 Contact & Feedback
-Feel free to open issues or pull requests if you'd like to contribute or improve any part of this journey.
-
-📄 License
-This project is licensed under the MIT License.
-
-yaml
-Copy code
+```
 
 ---
 
-# 🎉 Your README is now complete!
+## 🚀 Technologies Used
 
-You can now:
-
-1. **Copy everything into README.md**  
-2. Commit & push it to GitHub  
-3. Start adding Day 2 when you're ready  
+- C#  
+- .NET 8  
+- LINQ  
+- Bash scripting  
+- Linux (Ubuntu VM)  
 
 ---
 
-If you want, I can also:
+## 🧠 Purpose of the Project
 
-✔ Add a **LICENSE file**  
-✔ Generate GitHub **issue templates**  
-✔ Create a **Day2 folder structure**  
-✔ Add a **CONTRIBUTING.md**  
-✔ Add a **banner image**  
-✔ Add **shields.io badges** for build, tests, or .NET version  
+A structured self-learning challenge to build skills in:
 
-Just tell me:  
-**“Create the full project setup”** or  
-**“Continue with Day 2 now”**
+- C# and .NET  
+- SQL and data handling  
+- ETL processes  
+- Clean code & software architecture  
+- Automated testing  
+- Real-world engineering workflows  
+
+Each day introduces new concepts and includes a focused hands-on task.
+
+---
+
+## 📬 Contact & Feedback
+
+Feel free to open issues or pull requests to contribute or improve this repository.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
