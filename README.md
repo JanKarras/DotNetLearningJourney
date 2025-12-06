@@ -49,56 +49,97 @@ A C# console application that reads a `.txt` file and prints the **Top 5 most fr
 
 ---
 
-## ⚙️ Features
+# 🔥 Day 2 — ShapeCalculator
 
-✔ Validates CLI arguments  
-✔ Checks permissions and directory misuse  
-✔ Only accepts `.txt` files  
-✔ Detects empty or invalid files  
-✔ Splits text into words using custom separators  
-✔ Uses LINQ to calculate word frequencies  
-✔ Returns the top 5 most frequent words  
-✔ Includes Good/Bad automated test scripts  
+A C# console application focused on object-oriented programming, interfaces and polymorphism.
 
----
+### What I learned on Day 2:
 
-## 🧪 Running Tests
-
-### ✔ Good input tests
-
-```bash
-cd Day1-TextAnalyzer/TestFiles
-./good.sh
-### ✔ Bad input tests (expected errors)
-
-```bash
-./bad.sh
-```
-
-### The bad tests cover:
-
-- Missing argument  
-- File does not exist  
-- Wrong file extension  
-- No read permission  
-- Directory path instead of a file  
-- Empty file  
-- Files that contain no valid words  
+- Creating and implementing interfaces (`IShape`)  
+- Building multiple shape classes (Circle, Rectangle, Triangle)  
+- Encapsulation & constructor validation  
+- Understanding polymorphism and shared behaviour  
+- Using a service to calculate & print results cleanly  
+- Improved folder and architecture structure (Models + Services)
 
 ---
 
-## 📊 Example Output
+# 🔥 Day 3 — TimeTracker ETL
 
-```
-📊 Top 5 most frequent words:
-- the: 6x
-- dog: 3x
-- fox: 3x
-- lazy: 3x
-- quick: 3x
-```
+A C# ETL-style application that imports time-tracking data from CSV files into a SQLite database and generates analytical reports.
+
+### What I learned on Day 3:
+
+- Parsing CSV files and validating column structure  
+- Designing a SQLite schema & creating tables programmatically  
+- Inserting data using parameterized SQL commands  
+- Using transactions for consistent multi-row inserts  
+- Aggregating work hours using SQL `GROUP BY` queries  
+- End-to-end workflow: `CSV → Model → Database → Report`
 
 ---
+
+# 🔥 Day 4 — Data Transformation Services
+
+A C# service layer for transforming, filtering and enriching imported time-tracking data before reporting or saving.
+
+### What I learned on Day 4:
+
+- Building reusable transformation methods for `List<TimeEntry>`  
+- Filtering by employee, project or date range  
+- Calculating totals, averages & derived metrics in C#  
+- Designing clean service layers for data processing  
+- Preparing intermediate results for analytics & UI integration  
+- Strengthening architecture for scalable ETL workflows  
+
+---
+
+# 🔥 Day 5 — Advanced LINQ, Records & Dictionary Aggregation
+
+A C# deep dive into powerful data processing patterns using LINQ, immutable records and dictionary-based aggregation strategies.
+
+### What I learned on Day 5:
+
+- Refactoring models using C# `record` types for immutability  
+- Efficient data grouping using `Dictionary<TKey, TValue>`  
+- Advanced LINQ: `GroupBy`, `ToDictionary`, `SelectMany`, `OrderByDescending`  
+- Splitting processing steps into pipelines for clarity & performance  
+- Benchmarking differences between SQL-side vs C#-side aggregation  
+- Strategies for scaling ETL workloads using in-memory transforms  
+
+---
+
+# 🔥 Day 6 — Optional UI Prototype (WPF/WinUI)
+
+A graphical interface prototype to visualize imported time-tracking data, including live aggregation and report rendering.
+
+### What I learned on Day 6:
+
+- Building a desktop UI with WPF/WinUI using C#  
+- Data binding concepts (`ObservableCollection`, MVVM-Grundlagen)  
+- Displaying CSV/DB data in tables and live updating views  
+- Integrating backend services into a UI layer  
+- Visualizing analytics (hours per employee/project)  
+- UI/UX considerations for desktop-based time-tracking tools  
+
+---
+
+# 🔥 Day 7 — Final Project (Full ETL + Reporting Dashboard)
+
+A complete end-to-end ETL solution combining CSV import, transformation logic, SQLite storage and visual reporting.
+
+### What I learned on Day 7:
+
+- Designing a full data processing pipeline in C#  
+- Automating import → transform → load workflows  
+- Combining SQL + LINQ analytics for hybrid reporting  
+- Building reusable services and clean architecture layers  
+- Implementing a dashboard (CLI or UI) for final report output  
+- Turning raw data into meaningful metrics and insights  
+
+---
+
+
 
 ## 🚀 Technologies Used
 
