@@ -1,0 +1,11 @@
+id,employee,date,hours,project
+0,Alice,2025-01-01,8,Support
+1,Bob,2025-01-01,6,Development
+2,Alice,2025-01-02,4,Meeting
+3,Bob,2025-01-02,7,Development
+4,Charlie,2025-01-03,5,Support
+11,Alice A.,2025-01-07,3,Internal Support
+12,Bob,2025-01-07,4,Development
+13,Charlie,2025-01-08,8,Support
+14,Eve,2025-01-08,6,Development
+15,Frank,2025-01-09,7,Meeting
