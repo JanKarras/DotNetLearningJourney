@@ -1,0 +1,17 @@
+id,employee,date,hours,project
+0,Alice,2025-01-01,8,Support
+1,Bob,2025-01-01,6,Development
+2,Alice,2025-01-02,4,Meeting
+3,Bob,2025-01-02,7,Development
+4,Charlie,2025-01-03,5,Support
+5,,2025-01-03,8,Support
+6,Dave,2025-01-04,8,
+7,Eve,2025-01-04,0,Support
+8,Frank,2025-01-05,-2,Development
+9,Gina,2025-01-06,25,Support
+10,Hans,2099-01-01,8,FutureProject
+11,"  Alice   A.  ",2025-01-07,3,"  Internal   Support "
+12,Bob,2025-01-07,4,Development
+13,Charlie,2025-01-08,8,Support
+14,Eve,2025-01-08,6,Development
+15,Frank,2025-01-09,7,Meeting
