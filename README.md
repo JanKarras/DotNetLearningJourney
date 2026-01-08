@@ -25,7 +25,7 @@ The goal of this learning journey is to strengthen my engineering skillset and p
 | **Day 1** | C# Basics, File Handling, LINQ, Text Analyzer | ✅ Completed |
 | **Day 2** | OOP, Classes, Interfaces, Architecture | ✅ Completed |
 | **Day 3** | SQL + Simple ETL with C# | ✅ Completed |
-| **Day 4** | Data Pipelines & Transformation Services | ⏳ Planned |
+| **Day 4** | Data Pipelines & Transformation Services | ✅ Completed |
 | **Day 5** | Dictionaries, Records, Advanced LINQ | ⏳ Planned |
 | **Day 6** | Optional UI: WPF/WinUI Prototype | ⏳ Planned |
 | **Day 7** | Final Mini-Project | ⏳ Planned |
