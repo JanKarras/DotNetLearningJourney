@@ -1,0 +1,26 @@
+<Window xmlns="https://github.com/avaloniaui"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:dg="clr-namespace:Avalonia.Controls;assembly=Avalonia.Controls.DataGrid"
+		x:Class="Day6_Ui.MainWindow"
+		Width="900"
+		Height="650"
+		Title="Day 6 – CSV Import UI">
+
+	<Grid Margin="16" RowDefinitions="Auto,Auto,Auto,Auto,*" RowSpacing="12">
+
+		<TextBlock Grid.Row="0" Text="CSV Import" FontSize="22"/>
+
+		<StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="10">
+			<TextBox Name="CsvPathBox" Width="650" Watermark="Pfad zur CSV-Datei (z.B. /home/.../test.csv)"/>
+			<Button Content="Load" Click="OnLoadClick"/>
+			<Button Content="Browse…" Click="OnBrowseClick"/>
+		</StackPanel>
+
+		<TextBlock Grid.Row="2" Name="StatusText" Text="Status: bereit" FontSize="14"/>
+
+		<Border Grid.Row="3" Height="1" Background="Gray" Opacity="0.4"/>
+
+		<dg:DataGrid Grid.Row="4" Name="EntriesGrid" AutoGenerateColumns="True"/>
+
+	</Grid>
+</Window>
